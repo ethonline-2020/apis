@@ -1,0 +1,25 @@
+{
+  "name": "ethonline-apis",
+  "version": "1.0.0",
+  "description": "Node Api's for our dApp",
+  "main": "torus.js",
+  "scripts": {
+    "test": "nodemon daiBalance.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethonline-2020/apis.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ethonline-2020/apis/issues"
+  },
+  "homepage": "https://github.com/ethonline-2020/apis#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "web3": "^1.2.6"
+  }
+}
