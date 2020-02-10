@@ -4,6 +4,7 @@
   "description": "Node Api's for our dApp",
   "main": "torus.js",
   "scripts": {
+    "start": "node daiBalance.js",
     "test": "nodemon daiBalance.js"
   },
   "repository": {

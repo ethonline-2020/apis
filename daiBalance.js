@@ -250,7 +250,7 @@ app.get("/", (req, res) => {
 });
 
 // Get Dai Balance
-app.get("/id/:address", async function(req, res) {
+app.get("/dai/balance/:address", async function(req, res) {
   try {
     const sendResult = await checkBalance(req.params.address);
     res.send({status: true, data: {daiBalance: sendResult}});
